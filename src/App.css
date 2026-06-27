@@ -1,0 +1,203 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:linear-gradient(135deg,#fff8f0,#fde9d9);
+    color: #d8d8d8;
+   
+}
+
+/* Header */
+header,
+.bg-dark{
+    background:linear-gradient(135deg,#1f1c2c,#3b2f2f);
+    padding:20px 20px;
+    text-align:center;
+}
+
+header h1,
+.bg-dark h1{
+    color:#ffb347 !important;
+    font-size:3rem;
+    font-weight:700;
+}
+
+header p,
+.bg-dark p{
+    color:#f5f5f5 !important;
+    font-size:1.1rem;
+}
+
+/* Navbar */
+.navbar{
+    background:#ded63c !important;
+    box-shadow:0 5px 15px rgba(0,0,0,0.08);
+    padding: 5px;
+}
+
+.navbar-brand{
+    color:#a21f1f !important;
+    font-size:1.7rem;
+    font-weight:700;
+}
+
+.nav-link{
+    color:#ddc04b !important;
+    font-weight:500;
+    margin-left:15px;
+    transition:.3s;
+}
+
+.nav-link:hover{
+    color:#ff6b35 !important;
+}
+
+/* Section Heading */
+h2.text-center{
+    color:#2d2d2d;
+    font-weight:700;
+    margin:30px 0;
+}
+
+/* Cards */
+/* Body */
+body{
+    background: linear-gradient(135deg,#fff8f0,#fde9d9);
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Cards */
+.card{
+    border: none;
+    border-radius: 18px;
+    overflow: hidden;
+    margin: 30px 0;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+    transition: 0.3s;
+}
+
+.card:hover{
+    transform: translateY(-8px);
+    box-shadow: 0 15px 35px rgba(0,0,0,0.25);
+}
+
+/* Card Image */
+.card img{
+    height: 220px;
+    object-fit: cover;
+}
+
+/* Card Body */
+.card-body{
+    background-color: #2d2d2d !important;
+    color: white;
+    padding: 20px;
+}
+
+/* Title */
+.card-title{
+    color: #ffb347;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+/* Ingredients */
+.card-text{
+    color: #d8d8d8;
+}
+
+/* Price */
+.card-body p{
+    color: #f5f5f5;
+    margin-bottom: 8px;
+}
+
+/* Veg/Non-Veg Icon */
+.card i{
+    font-size: 24px;
+}
+
+/* Order Button */
+.btn-primary{
+    background-color: #ff6b35;
+    border: none;
+}
+
+.btn-primary:hover{
+    background-color: #e85d2d;
+}
+
+/* Cart Button */
+.btn-warning{
+    background-color: #ffb703;
+    color: black;
+    border: none;
+}
+
+.btn-warning:hover{
+    background-color: #f4a300;
+    color: black;
+}
+
+/* Footer */
+.customFooter{
+    background:#1f1f1f;
+    color:white;
+    padding:50px 0;
+    margin-top:50px;
+}
+
+.customFooter h5{
+    color:#ffb347;
+}
+
+.customNavLink{
+    color:#ddd;
+    text-decoration:none;
+    display:block;
+    margin:8px 0;
+    transition:.3s;
+}
+
+.customNavLink:hover{
+    color:#ff6b35;
+    padding-left:8px;
+}
+
+.verticalLine{
+    border-left:2px solid rgba(255,255,255,.2);
+    padding-left:20px;
+}
+
+.socialIcons{
+    color:white;
+    font-size:24px;
+    margin-right:20px;
+    transition:.3s;
+}
+
+.socialIcons:hover{
+    color:#ff6b35;
+    transform:translateY(-5px);
+}
+
+
+
+    header h1{
+        font-size:2.2rem;
+    }
+
+    .card img{
+        height:180px;
+    }
+
+    .navbar-brand{
+        font-size:1.4rem;
+    }

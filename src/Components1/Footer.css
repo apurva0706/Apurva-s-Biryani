@@ -1,0 +1,30 @@
+.customFooter{
+    background-color: rgb(60, 60, 60);
+    padding: 3rem;
+    color: white;
+}
+
+.customFooter h5{
+    color: rgb(151, 151, 151);
+}
+
+.verticalLine{
+    border-left: 2px solid white;
+    padding: 10px;
+}
+
+.socialIcons{
+    margin-right: 20px;
+    
+}
+
+.customNavLink{
+    color: white;
+    font-weight: 300;
+    font-size: medium;
+    text-decoration: none;
+}
+
+.customNavLink:hover{
+    color: rgb(149, 152, 149);
+}
